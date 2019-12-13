@@ -11,7 +11,8 @@
 }
 .card-header {
     border-color: black;
+    background-color: grey;
 }
 .list {
-    background-color: f2f2f2;
+    background-color: #f2f2f2;
 }
