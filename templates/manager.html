@@ -1,25 +1,33 @@
-<div class="card">
-    <div class="card-header">
-        <h5 class="card-header-title">
-                {{ name }}
-        </h5>
-    </div>
-    <div>
-        <ul class="list">
-            <li class="list-item">
-                <h5 class="card-subtitle">
-                    Manager
+<div class="columns is-centered">
+    <div class="column is-6">
+        <div class="card has-text-centered">
+            <div class="card-header">
+                <h5 class="card-header-title is-centered">
+                    {{ name }}
                 </h5>
-            </li>
-            <li class="list-item">
-                ID : {{ id }}
-            </li>
-            <li class="list-item">
-                Email : <a href="{{ email }}">{{ email }}</a>
-            </li>
-            <li class="list-item">
-                Office number : {{ officeNumber }}
-            </li>
-        </ul>
+            </div>
+            <div>
+                <ul class="list">
+                    <li class="list-item">
+                        <h5 class="card-subtitle">
+                            Manager
+                        </h5>
+                    </li>
+                    <li class="list-item">
+                        ID :
+                        {{ id }}
+                    </li>
+                    <li class="list-item">
+                        Email :
+                        <a href="{{ email }}">{{ email }}</a>
+                    </li>
+                    <li class="list-item">
+                        Office number :
+                        {{ officeNumber }}
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
+<div class="columns is-multiline">

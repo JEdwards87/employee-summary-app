@@ -5,7 +5,8 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
         <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
         <title>Tune Squad</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+        <link href="https://unpkg.com/bulmaswatch/nuclear/bulmaswatch.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" rel="stylesheet">
         <link href="style.css" rel="stylesheet"/>
     </head>
 
@@ -16,13 +17,10 @@
                     <h1 class="title has-text-centered ">Tune Squad</h1>
                 </div>
             </div>
-          </section>
-        <div class="container">
-            <div class="columns">
-                <div class="team-zone column one-fifth has-text-center">
-                    {{ body }}
-                </div>
-            </div>
+        </section>
+        <div>
+            {{ body }}
         </div>
+    </div>
     </body>
 </html>

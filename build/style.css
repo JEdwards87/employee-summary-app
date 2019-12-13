@@ -6,4 +6,8 @@
 }
 .card {
     margin: 3rem;
+    background-color: #9c9c9c;
+}
+.list {
+    background-color: f2f2f2;
 }

@@ -1,26 +1,32 @@
-<div class="card">
-    <div class="card-header">
-        <h5 class="card-header-title">
-                {{ name }}
-        </h5>
-    </div>
-    <div>
-        <ul class="list">
-            <li class="list-item">
-                <h5 class="card-subtitle">
-                    Engineer
+
+    <div class="column is-3">
+        <div class="card has-text-centered">
+            <div class="card-header">
+                <h5 class="card-header-title is-centered">
+                    {{ name }}
                 </h5>
-            </li>
-            <li class="list-item">
-                ID : {{ id }}
-            </li>
-            <li class="list-item">
-                Email :
-                <a href="{{ email }}">{{ email }}</a>
-            </li>
-            <li class="list-item">
-                    Github : <a href="{{ github }}">{{ github }}</a>
-            </li>
-        </ul>
+            </div>
+            <div>
+                <ul class="list">
+                    <li class="list-item">
+                        <h5 class="card-subtitle">
+                            Engineer
+                        </h5>
+                    </li>
+                    <li class="list-item">
+                        ID :
+                        {{ id }}
+                    </li>
+                    <li class="list-item">
+                        Email :
+                        <a href="{{ email }}">{{ email }}</a>
+                    </li>
+                    <li class="list-item">
+                        Github :
+                        <a href="{{ github }}">{{ github }}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
-</div>
+
