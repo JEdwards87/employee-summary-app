@@ -1,0 +1,18 @@
+.hero {
+    margin-bottom: 3rem;
+}
+.team-zone {
+    display: flex;
+}
+.card {
+    margin: 3rem;
+    background-color: #9c9c9c;
+    border-color: black;
+}
+.card-header {
+    border-color: black;
+    background-color: grey;
+}
+.list {
+    background-color: #f2f2f2;
+}
