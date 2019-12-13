@@ -9,7 +9,7 @@ function synth () {
         {
             type: "input",
             name: "name",
-            message: "Who is the manager's name?"
+            message: "Who is the manager?"
         },
         {
             type: "input",
