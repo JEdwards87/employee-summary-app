@@ -1,5 +1,5 @@
 const inquirer = require("inquirer"); //include inquirer module for makining prompts to get user input
-const render = require("./lib/Render"); //iclude Render.js  module
+const render = require("./lib/Render"); //include Render.js  module
 const Manager = require("./lib/constructors/Manager"); //include Manager module
 const Engineer = require("./lib/constructors/Engineer"); //include Engineer module
 const Intern = require("./lib/constructors/Intern") //include Intern module
