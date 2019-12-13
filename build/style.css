@@ -1,0 +1,9 @@
+.hero {
+    margin-bottom: 10px;
+}
+.team-zone {
+    display: flex;
+}
+.card {
+    margin: 3rem;
+}
