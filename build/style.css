@@ -7,6 +7,10 @@
 .card {
     margin: 3rem;
     background-color: #9c9c9c;
+    border-color: black;
+}
+.card-header {
+    border-color: black;
 }
 .list {
     background-color: f2f2f2;
