@@ -1,5 +1,8 @@
 Live Link:
 
+[consoleshot](https://user-images.githubusercontent.com/57024833/70770080-947c5280-1d31-11ea-8478-22a00d2df96f.PNG)
+
+
 User Story: As a manager I want to generate a webpage that displays my team's basic info so that I have quick access to emails and GitHub profiles.
 
 MIT License
